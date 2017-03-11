@@ -50,7 +50,7 @@ journalbeat:
   #move_metadata_to_field: ""
 
   # Specific units to monitor.
-  #units: ["httpd.service"]
+  units: ["docker.service"]
 
   #default_type: journal
 
